@@ -1,0 +1,17 @@
+node_modules/
+.env
+*.log
+deploy_render.js
+deploy_soma38_render.js
+fix_render_env.js
+push_and_deploy.js
+retry_render.js
+check_render.js
+check_render_env.js
+check_live_service.js
+test_keys.js
+test_gemini3.js
+test_models.js
+data/users.json
+data/soma38_social_tokens.json
+scripts/generate_missing_14.py

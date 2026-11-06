@@ -1,0 +1,176 @@
+[
+  {
+    "id": "leg_1789900593969_6rmu4",
+    "timestamp": "2026-09-20T10:36:33.969Z",
+    "senderName": "Beatriz Costa",
+    "senderEmail": "dpo_erasure_1789900593963@example.com",
+    "subject": "Pedido de Eliminação Total (RGPD Artigo 17)",
+    "message": "Gostaria que eliminassem todos os meus dados da plataforma RESET.",
+    "intent": "GDPR_ERASURE",
+    "executedAction": {
+      "success": true,
+      "userExisted": true,
+      "userId": "usr_7b15a3f3-cc30-49b2-a20c-08bd424f5569",
+      "message": "Conta e todos os dados de consulta foram eliminados permanentemente com sucesso (RGPD Art. 17)."
+    },
+    "reply": "Estimado(a) Beatriz Costa,\n\nAgradecemos o seu contacto com o Gabinete de Privacidade do RESET.\n\nConfirmamos que, em estrito cumprimento do Artigo 17.º do Regulamento Geral sobre a Proteção de Dados (RGPD - Direito ao Apagamento / \"Direito a ser Esquecido\"), procedemos à eliminação permanente e irreversível da sua conta, perfil de utilizador e de todo o histórico de consultas e fórmulas associado ao endereço dpo_erasure_1789900593963@example.com.\n\nNenhum dado pessoal remanescente foi conservado nos nossos servidores ativos, assegurando a total confidencialidade do seu percurso.\n\nAgradecemos a confiança que depositou no RESET durante o tempo em que utilizou a nossa plataforma. Caso no futuro decida regressar para uma nova reflexão ou calibração botânica, será sempre muito bem-vindo(a).\n\nCom os nossos mais respeitosos cumprimentos,\n\nGabinete de Privacidade & Proteção de Dados\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:36:33.969Z"
+  },
+  {
+    "id": "leg_1789900566102_jw9zu",
+    "timestamp": "2026-09-20T10:36:06.102Z",
+    "senderName": "Clara Duarte",
+    "senderEmail": "clara.duarte@example.com",
+    "subject": "Informação de Faturação",
+    "message": "Como é processado o pagamento dos 3,49 € e onde fica guardado o cartão?",
+    "intent": "PAYMENT_BILLING",
+    "executedAction": null,
+    "reply": "Estimado(a) Clara Duarte,\n\nAgradecemos o seu contacto relativamente aos serviços e aquisições no portal RESET.\n\nInformamos que todas as transações na nossa plataforma são processadas em ambiente de máxima segurança pela Stripe, em total conformidade com as normas internacionais PCI-DSS de Nível 1.\n\nRelembramos as condições de acesso:\n- O diálogo inicial de diagnóstico é integralmente gratuito.\n- A revelação da fórmula botânica personalizada com guia de manipulação posológica pode ser adquirida por 3,49 € (1 Desbloqueio individual) ou 7,99 € (Pacote de 3 Desbloqueios para arquivamento contínuo no seu cofre).\n- Caso necessite da emissão de segunda via do recibo de transação ou de esclarecimento sobre o seu saldo de desbloqueios, teremos todo o gosto em apoiá-lo(a) de imediato.\n\nAgradecemos a sua preferência e o privilégio de apoiar o seu bem-estar.\n\nAtentamente,\n\nGabinete de Apoio e Conformidade\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:36:06.102Z"
+  },
+  {
+    "id": "leg_1789900566102_mzjnh",
+    "timestamp": "2026-09-20T10:36:06.102Z",
+    "senderName": "Manuel Santos",
+    "senderEmail": "manuel.santos@example.com",
+    "subject": "Dúvida sobre eficácia e medicina",
+    "message": "Gostava de saber se estas essências curam ansiedade clínica ou se são fármacos.",
+    "intent": "BOTANICAL_EFFICACY_SAFETY",
+    "executedAction": null,
+    "reply": "Estimado(a) Manuel Santos,\n\nAgradecemos a sua mensagem e o seu interesse no enquadramento metodológico do RESET.\n\nGostaríamos de esclarecer com total transparência e rigor a natureza da nossa intervenção:\n\n1. Natureza das Essências Florais de Bach:\nO RESET formula sinergias personalizadas de essências florais de Bach, que são ferramentas botânicas vibracionais consagradas para o equilíbrio emocional, gestão de sobrecarga e autorreflexão. As essências florais não são medicamentos nem contêm princípios ativos farmacológicos.\n\n2. Enquadramento de Saúde e Bem-Estar:\nO nosso portal não realiza atos médicos, diagnósticos clínicos ou intervenções psiquiátricas, nem substitui o aconselhamento com profissionais de saúde devidamente credenciados. A nossa missão é apoiar a sua autonomia interna e devolver-lhe clareza no seu dia a dia.\n\n3. Segurança e Manipulação:\nAs essências são diluições seguras e não interagem com fármacos convencionais. Para pessoas com sensibilidade ao álcool (conservante tradicional em brandy), as farmácias de manipulação preparam a fórmula com glicerina vegetal sem qualquer teor alcoólico.\n\nEstamos inteiramente à sua disposição para qualquer esclarecimento adicional sobre a nossa abordagem analítica.\n\nCom os nossos melhores cumprimentos,\n\nGabinete de Privacidade & Apoio ao Utilizador\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:36:06.102Z"
+  },
+  {
+    "id": "leg_1789900566101_0w5aq",
+    "timestamp": "2026-09-20T10:36:06.101Z",
+    "senderName": "Sofia Silva",
+    "senderEmail": "dpo_test_1789900566094@example.com",
+    "subject": "Pedido de Eliminação de Conta (RGPD Art. 17)",
+    "message": "Por favor apaguem permanentemente a minha conta e todos os meus dados associados.",
+    "intent": "GDPR_ERASURE",
+    "executedAction": {
+      "success": true,
+      "userExisted": true,
+      "userId": "usr_74f42830-d826-4c41-981d-354838cf99bd",
+      "message": "Conta e todos os dados de consulta foram eliminados permanentemente com sucesso (RGPD Art. 17)."
+    },
+    "reply": "Estimado(a) Sofia Silva,\n\nAgradecemos o seu contacto com o Gabinete de Privacidade do RESET.\n\nConfirmamos que, em estrito cumprimento do Artigo 17.º do Regulamento Geral sobre a Proteção de Dados (RGPD - Direito ao Apagamento / \"Direito a ser Esquecido\"), procedemos à eliminação permanente e irreversível da sua conta, perfil de utilizador e de todo o histórico de consultas e fórmulas associado ao endereço dpo_test_1789900566094@example.com.\n\nNenhum dado pessoal remanescente foi conservado nos nossos servidores ativos, assegurando a total confidencialidade do seu percurso.\n\nAgradecemos a confiança que depositou no RESET durante o tempo em que utilizou a nossa plataforma. Caso no futuro decida regressar para uma nova reflexão ou calibração botânica, será sempre muito bem-vindo(a).\n\nCom os nossos mais respeitosos cumprimentos,\n\nGabinete de Privacidade & Proteção de Dados\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:36:06.101Z"
+  },
+  {
+    "id": "leg_1789900555437_vcfyw",
+    "timestamp": "2026-09-20T10:35:55.438Z",
+    "senderName": "Sofia Silva",
+    "senderEmail": "dpo_test_1789900555432@example.com",
+    "subject": "Pedido de Eliminação de Conta (RGPD Art. 17)",
+    "message": "Por favor apaguem permanentemente a minha conta e todos os meus dados associados.",
+    "intent": "GENERAL_LEGAL",
+    "executedAction": null,
+    "reply": "Estimado(a) Sofia Silva,\n\nAgradecemos a sua mensagem dirigida ao Gabinete de Privacidade e Proteção de Dados do RESET.\n\nA proteção da sua privacidade e a salvaguarda da confidencialidade das suas consultas são princípios estruturantes da nossa plataforma:\n\n- Conformidade Integral com o RGPD: Cumprimos com rigor todos os direitos previstos no Regulamento Geral sobre a Proteção de Dados e na legislação portuguesa (Lei n.º 58/2019).\n- Segurança e Encriptação: Todas as comunicações utilizam encriptação TLS 1.3 e os dados são alojados em infraestruturas certificadas localizadas na União Europeia.\n- Compromisso de Não-Comercialização: O RESET nunca comercializa, partilha ou cede dados pessoais ou conteúdos de consultas a terceiros ou redes de publicidade.\n\nAnalisámos atentamente a sua mensagem e registámos a sua solicitação. Caso necessite de alguma ação específica sobre os seus dados ou pretenda colocar questões adicionais, estamos à sua inteira disposição.\n\nCom a nossa mais elevada consideração,\n\nGabinete de Privacidade & DPO\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:35:55.437Z"
+  },
+  {
+    "id": "leg_1789900550592_y4jx3",
+    "timestamp": "2026-09-20T10:35:50.592Z",
+    "senderName": "Clara Duarte",
+    "senderEmail": "clara.duarte@example.com",
+    "subject": "Informação de Faturação",
+    "message": "Como é processado o pagamento dos 3,49 € e onde fica guardado o cartão?",
+    "intent": "PAYMENT_BILLING",
+    "executedAction": null,
+    "reply": "Estimado(a) Clara Duarte,\n\nAgradecemos o seu contacto relativamente aos serviços e aquisições no portal RESET.\n\nInformamos que todas as transações na nossa plataforma são processadas em ambiente de máxima segurança pela Stripe, em total conformidade com as normas internacionais PCI-DSS de Nível 1.\n\nRelembramos as condições de acesso:\n- O diálogo inicial de diagnóstico é integralmente gratuito.\n- A revelação da fórmula botânica personalizada com guia de manipulação posológica pode ser adquirida por 3,49 € (1 Desbloqueio individual) ou 7,99 € (Pacote de 3 Desbloqueios para arquivamento contínuo no seu cofre).\n- Caso necessite da emissão de segunda via do recibo de transação ou de esclarecimento sobre o seu saldo de desbloqueios, teremos todo o gosto em apoiá-lo(a) de imediato.\n\nAgradecemos a sua preferência e o privilégio de apoiar o seu bem-estar.\n\nAtentamente,\n\nGabinete de Apoio e Conformidade\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:35:50.592Z"
+  },
+  {
+    "id": "leg_1789900550591_7rv2r",
+    "timestamp": "2026-09-20T10:35:50.591Z",
+    "senderName": "Manuel Santos",
+    "senderEmail": "manuel.santos@example.com",
+    "subject": "Dúvida sobre eficácia e medicina",
+    "message": "Gostava de saber se estas essências curam ansiedade clínica ou se são fármacos.",
+    "intent": "BOTANICAL_EFFICACY_SAFETY",
+    "executedAction": null,
+    "reply": "Estimado(a) Manuel Santos,\n\nAgradecemos a sua mensagem e o seu interesse no enquadramento metodológico do RESET.\n\nGostaríamos de esclarecer com total transparência e rigor a natureza da nossa intervenção:\n\n1. Natureza das Essências Florais de Bach:\nO RESET formula sinergias personalizadas de essências florais de Bach, que são ferramentas botânicas vibracionais consagradas para o equilíbrio emocional, gestão de sobrecarga e autorreflexão. As essências florais não são medicamentos nem contêm princípios ativos farmacológicos.\n\n2. Enquadramento de Saúde e Bem-Estar:\nO nosso portal não realiza atos médicos, diagnósticos clínicos ou intervenções psiquiátricas, nem substitui o aconselhamento com profissionais de saúde devidamente credenciados. A nossa missão é apoiar a sua autonomia interna e devolver-lhe clareza no seu dia a dia.\n\n3. Segurança e Manipulação:\nAs essências são diluições seguras e não interagem com fármacos convencionais. Para pessoas com sensibilidade ao álcool (conservante tradicional em brandy), as farmácias de manipulação preparam a fórmula com glicerina vegetal sem qualquer teor alcoólico.\n\nEstamos inteiramente à sua disposição para qualquer esclarecimento adicional sobre a nossa abordagem analítica.\n\nCom os nossos melhores cumprimentos,\n\nGabinete de Privacidade & Apoio ao Utilizador\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:35:50.591Z"
+  },
+  {
+    "id": "leg_1789900550590_pkq0u",
+    "timestamp": "2026-09-20T10:35:50.590Z",
+    "senderName": "Sofia Silva",
+    "senderEmail": "dpo_test_1789900550583@example.com",
+    "subject": "Pedido de Eliminação de Conta (RGPD Art. 17)",
+    "message": "Por favor apaguem permanentemente a minha conta e todos os meus dados associados.",
+    "intent": "GENERAL_LEGAL",
+    "executedAction": null,
+    "reply": "Estimado(a) Sofia Silva,\n\nAgradecemos a sua mensagem dirigida ao Gabinete de Privacidade e Proteção de Dados do RESET.\n\nA proteção da sua privacidade e a salvaguarda da confidencialidade das suas consultas são princípios estruturantes da nossa plataforma:\n\n- Conformidade Integral com o RGPD: Cumprimos com rigor todos os direitos previstos no Regulamento Geral sobre a Proteção de Dados e na legislação portuguesa (Lei n.º 58/2019).\n- Segurança e Encriptação: Todas as comunicações utilizam encriptação TLS 1.3 e os dados são alojados em infraestruturas certificadas localizadas na União Europeia.\n- Compromisso de Não-Comercialização: O RESET nunca comercializa, partilha ou cede dados pessoais ou conteúdos de consultas a terceiros ou redes de publicidade.\n\nAnalisámos atentamente a sua mensagem e registámos a sua solicitação. Caso necessite de alguma ação específica sobre os seus dados ou pretenda colocar questões adicionais, estamos à sua inteira disposição.\n\nCom a nossa mais elevada consideração,\n\nGabinete de Privacidade & DPO\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:35:50.590Z"
+  },
+  {
+    "id": "leg_1789900543658_4ybvw",
+    "timestamp": "2026-09-20T10:35:43.658Z",
+    "senderName": "Sofia",
+    "senderEmail": "test@example.com",
+    "subject": "Eliminar conta",
+    "message": "Por favor eliminar a minha conta",
+    "intent": "GDPR_ERASURE",
+    "executedAction": {
+      "success": true,
+      "userExisted": false,
+      "message": "Nenhum registo associado encontrado ou dados já eliminados."
+    },
+    "reply": "Estimado(a) Sofia,\n\nAgradecemos o seu contacto com o Gabinete de Privacidade do RESET.\n\nConfirmamos que, em estrito cumprimento do Artigo 17.º do Regulamento Geral sobre a Proteção de Dados (RGPD - Direito ao Apagamento / \"Direito a ser Esquecido\"), procedemos à eliminação permanente e irreversível da sua conta, perfil de utilizador e de todo o histórico de consultas e fórmulas associado ao endereço test@example.com.\n\nNenhum dado pessoal remanescente foi conservado nos nossos servidores ativos, assegurando a total confidencialidade do seu percurso.\n\nAgradecemos a confiança que depositou no RESET durante o tempo em que utilizou a nossa plataforma. Caso no futuro decida regressar para uma nova reflexão ou calibração botânica, será sempre muito bem-vindo(a).\n\nCom os nossos mais respeitosos cumprimentos,\n\nGabinete de Privacidade & Proteção de Dados\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:35:43.658Z"
+  },
+  {
+    "id": "leg_1789900529417_kp6k2",
+    "timestamp": "2026-09-20T10:35:29.417Z",
+    "senderName": "Clara Duarte",
+    "senderEmail": "clara.duarte@example.com",
+    "subject": "Informação de Faturação",
+    "message": "Como é processado o pagamento dos 3,49 € e onde fica guardado o cartão?",
+    "intent": "PAYMENT_BILLING",
+    "executedAction": null,
+    "reply": "Estimado(a) Clara Duarte,\n\nAgradecemos o seu contacto relativamente aos serviços e aquisições no portal RESET.\n\nInformamos que todas as transações na nossa plataforma são processadas em ambiente de máxima segurança pela Stripe, em total conformidade com as normas internacionais PCI-DSS de Nível 1.\n\nRelembramos as condições de acesso:\n- O diálogo inicial de diagnóstico é integralmente gratuito.\n- A revelação da fórmula botânica personalizada com guia de manipulação posológica pode ser adquirida por 3,49 € (1 Desbloqueio individual) ou 7,99 € (Pacote de 3 Desbloqueios para arquivamento contínuo no seu cofre).\n- Caso necessite da emissão de segunda via do recibo de transação ou de esclarecimento sobre o seu saldo de desbloqueios, teremos todo o gosto em apoiá-lo(a) de imediato.\n\nAgradecemos a sua preferência e o privilégio de apoiar o seu bem-estar.\n\nAtentamente,\n\nGabinete de Apoio e Conformidade\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:35:29.417Z"
+  },
+  {
+    "id": "leg_1789900529416_btqb4",
+    "timestamp": "2026-09-20T10:35:29.416Z",
+    "senderName": "Manuel Santos",
+    "senderEmail": "manuel.santos@example.com",
+    "subject": "Dúvida sobre eficácia e medicina",
+    "message": "Gostava de saber se estas essências curam ansiedade clínica ou se são fármacos.",
+    "intent": "BOTANICAL_EFFICACY_SAFETY",
+    "executedAction": null,
+    "reply": "Estimado(a) Manuel Santos,\n\nAgradecemos a sua mensagem e o seu interesse no enquadramento metodológico do RESET.\n\nGostaríamos de esclarecer com total transparência e rigor a natureza da nossa intervenção:\n\n1. Natureza das Essências Florais de Bach:\nO RESET formula sinergias personalizadas de essências florais de Bach, que são ferramentas botânicas vibracionais consagradas para o equilíbrio emocional, gestão de sobrecarga e autorreflexão. As essências florais não são medicamentos nem contêm princípios ativos farmacológicos.\n\n2. Enquadramento de Saúde e Bem-Estar:\nO nosso portal não realiza atos médicos, diagnósticos clínicos ou intervenções psiquiátricas, nem substitui o aconselhamento com profissionais de saúde devidamente credenciados. A nossa missão é apoiar a sua autonomia interna e devolver-lhe clareza no seu dia a dia.\n\n3. Segurança e Manipulação:\nAs essências são diluições seguras e não interagem com fármacos convencionais. Para pessoas com sensibilidade ao álcool (conservante tradicional em brandy), as farmácias de manipulação preparam a fórmula com glicerina vegetal sem qualquer teor alcoólico.\n\nEstamos inteiramente à sua disposição para qualquer esclarecimento adicional sobre a nossa abordagem analítica.\n\nCom os nossos melhores cumprimentos,\n\nGabinete de Privacidade & Apoio ao Utilizador\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:35:29.416Z"
+  },
+  {
+    "id": "leg_1789900529415_uflxj",
+    "timestamp": "2026-09-20T10:35:29.415Z",
+    "senderName": "Sofia Silva",
+    "senderEmail": "dpo_test_1789900529410@example.com",
+    "subject": "Pedido de Eliminação de Conta (RGPD Art. 17)",
+    "message": "Por favor apaguem permanentemente a minha conta e todos os meus dados associados.",
+    "intent": "GDPR_ACCESS",
+    "executedAction": {
+      "action": "data_access_summary",
+      "recordFound": true,
+      "readingsCount": 0
+    },
+    "reply": "Estimado(a) Sofia Silva,\n\nAgradecemos a sua mensagem dirigida ao Gabinete de Privacidade e Proteção de Dados do RESET.\n\nA proteção da sua privacidade e a salvaguarda da confidencialidade das suas consultas são princípios estruturantes da nossa plataforma:\n\n- Conformidade Integral com o RGPD: Cumprimos com rigor todos os direitos previstos no Regulamento Geral sobre a Proteção de Dados e na legislação portuguesa (Lei n.º 58/2019).\n- Segurança e Encriptação: Todas as comunicações utilizam encriptação TLS 1.3 e os dados são alojados em infraestruturas certificadas localizadas na União Europeia.\n- Compromisso de Não-Comercialização: O RESET nunca comercializa, partilha ou cede dados pessoais ou conteúdos de consultas a terceiros ou redes de publicidade.\n\nAnalisámos atentamente a sua mensagem e registámos a sua solicitação. Caso necessite de alguma ação específica sobre os seus dados ou pretenda colocar questões adicionais, estamos à sua inteira disposição.\n\nCom a nossa mais elevada consideração,\n\nGabinete de Privacidade & DPO\nRESET · www.resetbase.pt",
+    "status": "resolved",
+    "resolvedAt": "2026-09-20T10:35:29.415Z"
+  }
+]
