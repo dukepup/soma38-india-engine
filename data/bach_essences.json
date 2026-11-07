@@ -1,0 +1,270 @@
+{
+  "essences": [
+    {
+      "name": "Rock Rose",
+      "category": "Fear",
+      "gestalt": "Sensation",
+      "symptom": "Terror, panic, frozen fear",
+      "support": "Brings deep courage, presence of mind, and calm clarity in high-intensity moments."
+    },
+    {
+      "name": "Mimulus",
+      "category": "Fear",
+      "gestalt": "Awareness",
+      "symptom": "Known fears, shyness, timidity, everyday anxiety",
+      "support": "Builds quiet inner confidence to face everyday challenges and speak your truth."
+    },
+    {
+      "name": "Cherry Plum",
+      "category": "Fear",
+      "gestalt": "Mobilization",
+      "symptom": "Fear of losing control, intense emotional pressure, breakdown",
+      "support": "Restores emotional composure, rational balance, and trust in your own inner stability."
+    },
+    {
+      "name": "Aspen",
+      "category": "Fear",
+      "gestalt": "Sensation",
+      "symptom": "Vague, unknown anxieties, inexplicable apprehension",
+      "support": "Instills grounded security, peace of mind, and trust in the unknown."
+    },
+    {
+      "name": "Red Chestnut",
+      "category": "Fear",
+      "gestalt": "Final Contact",
+      "symptom": "Excessive worry and over-concern for others",
+      "support": "Helps send supportive, peaceful care without projecting anxiety onto loved ones."
+    },
+    {
+      "name": "Cerato",
+      "category": "Uncertainty",
+      "gestalt": "Awareness",
+      "symptom": "Self-doubt, seeking constant outside validation",
+      "support": "Restores deep trust in your own intuitive judgment and internal compass."
+    },
+    {
+      "name": "Scleranthus",
+      "category": "Uncertainty",
+      "gestalt": "Mobilization",
+      "symptom": "Indecision between choices, vacillation, emotional fluctuation",
+      "support": "Brings clear decisiveness, inner balance, and steady poise."
+    },
+    {
+      "name": "Gentian",
+      "category": "Uncertainty",
+      "gestalt": "Action",
+      "symptom": "Discouragement after setbacks, skepticism",
+      "support": "Rebuilds resilience, optimism, and perseverance through temporary obstacles."
+    },
+    {
+      "name": "Gorse",
+      "category": "Uncertainty",
+      "gestalt": "Action",
+      "symptom": "Hopelessness, defeatism, giving up",
+      "support": "Reignites hope, inner faith, and the vital spark to take another step forward."
+    },
+    {
+      "name": "Hornbeam",
+      "category": "Uncertainty",
+      "gestalt": "Mobilization",
+      "symptom": "Mental fatigue, procrastination, feeling unready to start",
+      "support": "Provides mental vitality, fresh enthusiasm, and dynamic momentum to begin."
+    },
+    {
+      "name": "Wild Oat",
+      "category": "Uncertainty",
+      "gestalt": "Awareness",
+      "symptom": "Uncertainty about life direction, scattered ambition",
+      "support": "Clarifies your genuine path, core purpose, and aligned vocation."
+    },
+    {
+      "name": "Clematis",
+      "category": "Lack of Interest",
+      "gestalt": "Sensation",
+      "symptom": "Daydreaming, escapism, disconnection from the present",
+      "support": "Grounds attention in present reality and translates ideals into tangible action."
+    },
+    {
+      "name": "Honeysuckle",
+      "category": "Lack of Interest",
+      "gestalt": "Withdrawal",
+      "symptom": "Living in the past, nostalgia, longing for what was",
+      "support": "Helps release bygone chapters and embrace present opportunities with gratitude."
+    },
+    {
+      "name": "Wild Rose",
+      "category": "Lack of Interest",
+      "gestalt": "Mobilization",
+      "symptom": "Apathy, resignation, passive drift",
+      "support": "Revives active enthusiasm, joy, and dynamic engagement with life."
+    },
+    {
+      "name": "Olive",
+      "category": "Lack of Interest",
+      "gestalt": "Withdrawal",
+      "symptom": "Complete exhaustion, burnout, depleted energy reserves",
+      "support": "Restores physical and mental vitality after prolonged exertion."
+    },
+    {
+      "name": "White Chestnut",
+      "category": "Lack of Interest",
+      "gestalt": "Awareness",
+      "symptom": "Mental chatter, looping thoughts, overthinking",
+      "support": "Quietens mental loops and brings clear stillness and restful focus."
+    },
+    {
+      "name": "Mustard",
+      "category": "Lack of Interest",
+      "gestalt": "Sensation",
+      "symptom": "Deep sudden gloom without clear cause",
+      "support": "Restores inner warmth, emotional stability, and peaceful clarity."
+    },
+    {
+      "name": "Chestnut Bud",
+      "category": "Lack of Interest",
+      "gestalt": "Satisfaction",
+      "symptom": "Repeating the same mistakes, failing to integrate lessons",
+      "support": "Enhances insight and integration of experience to break repetitive cycles."
+    },
+    {
+      "name": "Water Violet",
+      "category": "Loneliness",
+      "gestalt": "Final Contact",
+      "symptom": "Pride, aloofness, emotional isolation",
+      "support": "Encourages warm connection with others while honoring healthy independence."
+    },
+    {
+      "name": "Impatiens",
+      "category": "Loneliness",
+      "gestalt": "Action",
+      "symptom": "Impatience, irritability with slow pace, rushing ahead",
+      "support": "Fosters patience, gentleness, and harmony with natural timing."
+    },
+    {
+      "name": "Heather",
+      "category": "Loneliness",
+      "gestalt": "Final Contact",
+      "symptom": "Self-absorption, fear of isolation, excessive talking",
+      "support": "Develops deep empathy, active listening, and self-contained emotional security."
+    },
+    {
+      "name": "Agrimony",
+      "category": "Oversensitivity",
+      "gestalt": "Awareness",
+      "symptom": "Hiding distress behind a cheerful mask, conflict avoidance",
+      "support": "Enables honest self-expression and genuine inner peace without needing to mask."
+    },
+    {
+      "name": "Centaury",
+      "category": "Oversensitivity",
+      "gestalt": "Action",
+      "symptom": "Weak boundaries, people-pleasing, inability to say no",
+      "support": "Strengthens healthy personal boundaries and self-respect."
+    },
+    {
+      "name": "Walnut",
+      "category": "Oversensitivity",
+      "gestalt": "Satisfaction",
+      "symptom": "Difficulty with major transitions, susceptibility to outside influence",
+      "support": "Provides protection during life transitions and anchors loyalty to one's own course."
+    },
+    {
+      "name": "Holly",
+      "category": "Oversensitivity",
+      "gestalt": "Final Contact",
+      "symptom": "Jealousy, suspicion, resentment, feeling slighted",
+      "support": "Opens the heart to trust, generosity, and compassion."
+    },
+    {
+      "name": "Larch",
+      "category": "Despondency",
+      "gestalt": "Mobilization",
+      "symptom": "Lack of confidence, expecting failure, hesitation to try",
+      "support": "Instills self-belief, courage to take risks, and trust in your capabilities."
+    },
+    {
+      "name": "Pine",
+      "category": "Despondency",
+      "gestalt": "Satisfaction",
+      "symptom": "Guilt, self-blame, taking responsibility for others' issues",
+      "support": "Encourages self-forgiveness and frees you from unearned guilt."
+    },
+    {
+      "name": "Elm",
+      "category": "Despondency",
+      "gestalt": "Action",
+      "symptom": "Temporary overwhelm from heavy responsibilities",
+      "support": "Restores confidence, perspective, and efficiency under high expectations."
+    },
+    {
+      "name": "Sweet Chestnut",
+      "category": "Despondency",
+      "gestalt": "Sensation",
+      "symptom": "Extreme anguish, reached the edge of emotional endurance",
+      "support": "Brings deep inner release, profound solace, and renewed hope."
+    },
+    {
+      "name": "Star of Bethlehem",
+      "category": "Despondency",
+      "gestalt": "Withdrawal",
+      "symptom": "Shock, trauma, grief, unresolved emotional impact",
+      "support": "Soothes deep trauma and restores emotional wholeness and alignment."
+    },
+    {
+      "name": "Willow",
+      "category": "Despondency",
+      "gestalt": "Satisfaction",
+      "symptom": "Resentment, bitterness, feeling like a victim of circumstances",
+      "support": "Cultivates proactive ownership of your life and opens the door to forgiveness."
+    },
+    {
+      "name": "Oak",
+      "category": "Despondency",
+      "gestalt": "Action",
+      "symptom": "Stubborn perseverance to the breaking point, refusing to rest",
+      "support": "Teaches wise balance between strong endurance and necessary recuperation."
+    },
+    {
+      "name": "Crab Apple",
+      "category": "Despondency",
+      "gestalt": "Awareness",
+      "symptom": "Shame, perfectionism, feeling tainted or fixated on flaws",
+      "support": "Promotes healthy self-acceptance, purification, and broad perspective."
+    },
+    {
+      "name": "Chicory",
+      "category": "Overcare for Others",
+      "gestalt": "Final Contact",
+      "symptom": "Possessive care, subtle manipulation, demanding appreciation",
+      "support": "Nurtures unconditional affection that grants loved ones complete freedom."
+    },
+    {
+      "name": "Vervain",
+      "category": "Overcare for Others",
+      "gestalt": "Mobilization",
+      "symptom": "Over-enthusiasm, intense urgency, burnout from crusading",
+      "support": "Encourages calm communication, open-minded flexibility, and relaxed pacing."
+    },
+    {
+      "name": "Vine",
+      "category": "Overcare for Others",
+      "gestalt": "Action",
+      "symptom": "Domination, inflexibility, imposing your will on others",
+      "support": "Develops inspiring, compassionate leadership that empowers those around you."
+    },
+    {
+      "name": "Beech",
+      "category": "Overcare for Others",
+      "gestalt": "Final Contact",
+      "symptom": "Intolerance, irritation with others' habits, critical judgment",
+      "support": "Builds genuine tolerance, empathy, and appreciation for varied perspectives."
+    },
+    {
+      "name": "Rock Water",
+      "category": "Overcare for Others",
+      "gestalt": "Satisfaction",
+      "symptom": "Self-denial, rigid asceticism, harsh self-discipline",
+      "support": "Brings emotional flexibility, self-kindness, and ease into daily life."
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="pt" data-theme="dark">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0M14P7VLZ2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0M14P7VLZ2');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade · RESET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #faf8f5;
+      --bg-surface: #ffffff;
+      --text-main: #1f1e1c;
+      --text-muted: #6e6b66;
+      --brand-brown: #3d352e;
+      --border: #e8e3dc;
+      --gold-subtle: #8a7356;
+      --gold-dark: #6e583c;
+      --card-bg: #ffffff;
+      --callout-bg: #f4ede3;
+      --callout-border: #d8cbba;
+      --input-bg: #faf8f5;
+      --active-tab-bg: #3d352e;
+      --active-tab-text: #ffffff;
+    }
+
+    [data-theme="dark"] {
+      --bg-primary: #0e0d0c;
+      --bg-surface: #171514;
+      --text-main: #ede8e1;
+      --text-muted: #a39c93;
+      --brand-brown: #6d503b;
+      --border: #2c2723;
+      --gold-subtle: #cbb291;
+      --gold-dark: #e8caa4;
+      --card-bg: #171514;
+      --callout-bg: #211c18;
+      --callout-border: #3b322a;
+      --input-bg: #121110;
+      --active-tab-bg: #6d503b;
+      --active-tab-text: #ffffff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 24px 20px 80px;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    .container {
+      max-width: 940px;
+      margin: 0 auto;
+    }
+
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .logo-mark {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--gold-dark);
+      letter-spacing: 0.08em;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-nav {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      padding: 7px 14px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-nav:hover {
+      background: var(--callout-bg);
+      border-color: var(--gold-dark);
+      color: var(--gold-dark);
+    }
+
+    .lang-switcher {
+      display: flex;
+      gap: 4px;
+      background: var(--input-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 3px;
+    }
+
+    .lang-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn.active {
+      background: var(--gold-dark);
+      color: #ffffff;
+    }
+
+    .legal-tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+      overflow-x: auto;
+    }
+
+    .legal-tab-item {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      white-space: nowrap;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .legal-tab-item:hover {
+      border-color: var(--gold-dark);
+      color: var(--gold-dark);
+    }
+
+    .legal-tab-item.active {
+      background: var(--active-tab-bg);
+      color: var(--active-tab-text);
+      border-color: var(--active-tab-bg);
+    }
+
+    .doc-hero {
+      margin-bottom: 32px;
+    }
+
+    .doc-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--callout-bg);
+      border: 1px solid var(--callout-border);
+      color: var(--gold-dark);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+
+    .doc-title {
+      font-family: 'Cinzel', serif;
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: var(--gold-dark);
+      margin-bottom: 10px;
+      line-height: 1.25;
+    }
+
+    .doc-subtitle {
+      font-size: 0.96rem;
+      color: var(--text-muted);
+    }
+
+    .doc-meta {
+      margin-top: 14px;
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .privacy-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 30px 34px;
+      margin-bottom: 22px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    }
+
+    @media (max-width: 640px) {
+      .privacy-card { padding: 20px 18px; }
+      .doc-title { font-size: 1.7rem; }
+    }
+
+    .section-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.22rem;
+      font-weight: 700;
+      color: var(--gold-dark);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+    }
+
+    .section-title span.sec-num {
+      background: var(--callout-bg);
+      color: var(--gold-dark);
+      font-size: 0.85rem;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-family: -apple-system, sans-serif;
+    }
+
+    p { margin-bottom: 14px; font-size: 0.95rem; }
+    ul, ol { margin-left: 20px; margin-bottom: 14px; font-size: 0.95rem; }
+    li { margin-bottom: 8px; }
+
+    .highlight-box {
+      background: var(--callout-bg);
+      border-left: 3px solid var(--gold-dark);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 18px 0;
+      font-size: 0.92rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin: 18px 0;
+    }
+
+    .grid-card {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 20px;
+    }
+
+    .grid-card-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--gold-dark);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .grid-card-body {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    table.cookie-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+      font-size: 0.88rem;
+    }
+
+    table.cookie-table th, table.cookie-table td {
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      text-align: left;
+    }
+
+    table.cookie-table th {
+      background: var(--callout-bg);
+      color: var(--gold-dark);
+      font-weight: 700;
+      font-family: 'Cinzel', serif;
+    }
+
+    .doc-footer {
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      margin-top: 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.84rem;
+      color: var(--text-muted);
+    }
+
+    .doc-footer a {
+      color: var(--gold-dark);
+      text-decoration: none;
+    }
+
+    .doc-footer a:hover {
+      text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+  
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <a href="/" class="logo-container">
+      <span class="logo-mark">RESET</span>
+    </a>
+    <div class="nav-links" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+      <a href="/?view=profile" class="btn-nav">O meu perfil</a>
+      <a href="/?view=synastry" class="btn-nav">Relacionamentos</a>
+      <a href="/?view=vault" class="btn-nav">Fórmulas Adquiridas</a>
+      <a href="/?view=faq" class="btn-nav">FAQ</a>
+      <a href="/blog" class="btn-nav">Blog</a>
+    </div>
+    <div class="nav-actions">
+      <div class="lang-switcher">
+        <button class="lang-btn active" id="btnLangPt" onclick="setPolicyLang('pt')">PT</button>
+        <button class="lang-btn" id="btnLangEn" onclick="setPolicyLang('en')">EN</button>
+      </div>
+      <button class="btn-nav" onclick="toggleTheme()" id="btnThemeToggle">☀️ / 🌙</button>
+    </div>
+  </nav>
+
+  <!-- Legal Navigation Tabs -->
+  <div class="legal-tabs">
+    <a href="/privacy" class="legal-tab-item active">🛡️ <span id="tabLabelPrivacy">Política de Privacidade</span></a>
+    <a href="/cookies" class="legal-tab-item ">🍪 <span id="tabLabelCookies">Política de Cookies</span></a>
+    <a href="/terms" class="legal-tab-item ">📜 <span id="tabLabelTerms">Termos & Condições</span></a>
+  </div>
+  
+
+  <header class="doc-hero">
+    <div class="doc-badge">🛡️ RGPD / GDPR Compliant</div>
+    <h1 class="doc-title" id="txtDocTitle">Política de Privacidade</h1>
+    <p class="doc-subtitle" id="txtDocSubtitle">
+      Transparência, integridade e proteção integral dos seus dados pessoais e consultas no RESET.
+    </p>
+    <div class="doc-meta">
+      <span><strong>Data de Entrada em Vigor:</strong> 20 de setembro de 2026</span>
+      <span><strong>Âmbito:</strong> Global · União Europeia (RGPD) & Portugal (Lei n.º 58/2019)</span>
+      <span><strong>Contacto DPO / Privacidade:</strong> <a href="mailto:privacidade@resetbase.pt" style="color: var(--gold-dark);">privacidade@resetbase.pt</a></span>
+    </div>
+  </header>
+
+  <div id="contentPt">
+    <section class="privacy-card" id="sec1">
+      <h2 class="section-title"><span class="sec-num">1</span> Enquadramento e Responsável pelo Tratamento</h2>
+      <p>
+        A presente Política de Privacidade regula o tratamento de dados pessoais no âmbito da plataforma <strong>RESET</strong> (acessível através de <em>www.resetbase.pt</em>, <em>resetbaseline.pt</em> e aplicações associadas).
+      </p>
+      <p>
+        O RESET é um portal de diagnóstico analítico holístico, cálculo astronómico/astrológico e recomendação personalizada de fórmulas florais de Bach. Operamos em estrita conformidade com o <strong>Regulamento Geral sobre a Proteção de Dados (RGPD - Regulamento (UE) 2016/679)</strong> e a legislação nacional aplicável (Lei n.º 58/2019 de 8 de agosto).
+      </p>
+      <div class="highlight-box">
+        <strong>Responsável pelo Tratamento:</strong> RESET Platform<br>
+        <strong>Email de Contacto de Privacidade:</strong> <a href="mailto:privacidade@resetbase.pt" style="color: var(--gold-dark); text-decoration: underline;">privacidade@resetbase.pt</a><br>
+        <strong>Localização dos Servidores Principais:</strong> União Europeia (Data Centers certificados ISO/IEC 27001 e SOC 2).
+      </div>
+    </section>
+
+    <section class="privacy-card" id="sec2">
+      <h2 class="section-title"><span class="sec-num">2</span> Dados Pessoais que Recolhemos</h2>
+      <div class="grid-2">
+        <div class="grid-card">
+          <div class="grid-card-title"><span>👤</span> Dados de Acesso</div>
+          <div class="grid-card-body">Nome/pseudónimo, email, número de telemóvel (WhatsApp/SMS OTP) e IDs Google/Apple.</div>
+        </div>
+        <div class="grid-card">
+          <div class="grid-card-title"><span>🪐</span> Dados Astrológicos</div>
+          <div class="grid-card-body">Data de nascimento, hora (opcional) e coordenadas geográficas de nascimento ou consulta.</div>
+        </div>
+        <div class="grid-card">
+          <div class="grid-card-title"><span>💬</span> Diálogo Confidencial</div>
+          <div class="grid-card-body">Relato partilhado e registo seguro das consultas para o seu cofre pessoal.</div>
+        </div>
+        <div class="grid-card">
+          <div class="grid-card-title"><span>💳</span> Pagamentos (Stripe)</div>
+          <div class="grid-card-body">Processamento seguro PCI-DSS Nível 1. Nunca armazenamos dados bancários.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="privacy-card" id="sec3">
+      <h2 class="section-title"><span class="sec-num">3</span> Finalidades e Bases Legais</h2>
+      <ul>
+        <li><strong>Execução de Contrato (Art. 6.º, 1, b):</strong> Análise diagnóstica, cálculo astronómico e recomendação botânica.</li>
+        <li><strong>Consentimento (Art. 6.º, 1, a):</strong> Envio da fórmula para o seu email quando expressamente solicitado.</li>
+        <li><strong>Interesse Legítimo & Segurança (Art. 6.º, 1, f):</strong> Prevenção de abusos e segurança da conta.</li>
+      </ul>
+    </section>
+
+    <section class="privacy-card" id="sec4">
+      <h2 class="section-title"><span class="sec-num">4</span> Direitos do Titular (RGPD)</h2>
+      <p>
+        Tem total direito de <strong>Acesso</strong>, <strong>Retificação</strong>, <strong>Apagamento ("Direito a ser Esquecido")</strong>, <strong>Portabilidade</strong> e <strong>Reclamação</strong> junto da autoridade de controlo em Portugal (<strong>CNPD - Comissão Nacional de Proteção de Dados</strong>, <a href="https://www.cnpd.pt" target="_blank" style="color: var(--gold-dark);">www.cnpd.pt</a>).
+      </p>
+    </section>
+  </div>
+
+  <div id="contentEn" style="display: none;">
+    <section class="privacy-card">
+      <h2 class="section-title"><span class="sec-num">1</span> GDPR Scope & Controller</h2>
+      <p>
+        RESET processes data in strict compliance with EU Regulation 2016/679 (GDPR). We never sell personal information to third parties. Contact: <a href="mailto:privacidade@resetbase.pt" style="color: var(--gold-dark);">privacidade@resetbase.pt</a>.
+      </p>
+    </section>
+  </div>
+
+  
+  <!-- 🛡️ INTERACTIVE DPO & PRIVACY OFFICE CONTACT FORM -->
+  <section class="privacy-card" id="contactDpoSection" style="margin-top: 32px; border: 1.5px solid var(--gold-subtle); background: var(--card-bg);">
+    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px; border-bottom: 1px solid var(--border); padding-bottom: 10px;">
+      <span style="font-size: 1.4rem;">✉️</span>
+      <h2 style="font-family: 'Cinzel', serif; font-size: 1.25rem; color: var(--gold-dark); margin: 0;" id="txtContactFormTitle">
+        Contacto Direto com o Gabinete de Privacidade & DPO
+      </h2>
+    </div>
+    <p style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 20px;" id="txtContactFormSub">
+      Envie uma mensagem direta para <strong>privacidade@resetbase.pt</strong>. O nosso Agente de Proteção Legal e DPO processará o seu pedido de imediato com total transparência e confidencialidade.
+    </p>
+
+    <div id="dpoFormBox">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-bottom: 14px;">
+        <div>
+          <label style="display: block; font-size: 0.85rem; font-weight: 600; color: var(--text-main); margin-bottom: 4px;" id="lblDpoName">O Seu Nome</label>
+          <input type="text" id="dpoSenderName" placeholder="ex: Bernardo" style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-main); font-size: 0.9rem;" />
+        </div>
+        <div>
+          <label style="display: block; font-size: 0.85rem; font-weight: 600; color: var(--text-main); margin-bottom: 4px;" id="lblDpoEmail">O Seu Email (Obrigatório)</label>
+          <input type="email" id="dpoSenderEmail" placeholder="nome@email.com" required style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-main); font-size: 0.9rem;" />
+        </div>
+      </div>
+
+      <div style="margin-bottom: 14px;">
+        <label style="display: block; font-size: 0.85rem; font-weight: 600; color: var(--text-main); margin-bottom: 4px;" id="lblDpoSubject">Assunto do Pedido</label>
+        <select id="dpoSubject" style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-main); font-size: 0.9rem;">
+          <option value="Pedido de Eliminação de Dados (RGPD Art. 17)">🗑️ Pedido de Eliminação de Dados / Conta (RGPD Art. 17)</option>
+          <option value="Acesso e Exportação de Dados (RGPD Art. 20)">📁 Acesso e Exportação de Dados (RGPD Art. 20)</option>
+          <option value="Questão de Segurança e Privacidade">🔒 Questão sobre Segurança e Proteção de Dados</option>
+          <option value="Esclarecimento sobre Florais de Bach & Metodologia">🌿 Esclarecimento sobre Florais de Bach & Metodologia</option>
+          <option value="Questão de Pagamentos e Desbloqueios">💳 Questão sobre Pagamentos e Desbloqueios</option>
+          <option value="Outro Assunto Legal">📜 Outro Assunto / Sugestão</option>
+        </select>
+      </div>
+
+      <div style="margin-bottom: 18px;">
+        <label style="display: block; font-size: 0.85rem; font-weight: 600; color: var(--text-main); margin-bottom: 4px;" id="lblDpoMessage">A Sua Mensagem</label>
+        <textarea id="dpoMessage" rows="4" placeholder="Descreva a sua questão ou o pedido específico relativo aos seus dados..." style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border); background: var(--input-bg); color: var(--text-main); font-size: 0.9rem; resize: vertical;"></textarea>
+      </div>
+
+      <button type="button" id="btnSubmitDpo" onclick="submitDpoInquiry()" style="background: var(--brand-brown); color: #ffffff; border: 1px solid var(--gold-dark); padding: 11px 26px; border-radius: 8px; font-weight: 700; font-size: 0.92rem; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s;">
+        <span>🛡️</span> <span id="txtBtnSendDpo">Enviar Mensagem para o Gabinete de Privacidade</span>
+      </button>
+    </div>
+
+    <!-- Live Response Card from Legal Agent -->
+    <div id="dpoResponseBox" style="display: none; margin-top: 20px; background: var(--callout-bg); border: 1.5px solid var(--gold-dark); border-radius: 12px; padding: 22px 24px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
+        <div style="font-family: 'Cinzel', serif; font-size: 1.08rem; font-weight: 700; color: var(--gold-dark); display: flex; align-items: center; gap: 8px;">
+          <span>⚖️</span> <span>Resposta Oficial do Gabinete de Privacidade RESET</span>
+        </div>
+        <span id="dpoTicketBadge" style="background: var(--gold-dark); color: #000; font-size: 0.76rem; font-weight: 800; padding: 3px 10px; border-radius: 12px; letter-spacing: 0.05em;">TICKET PROCESSADO</span>
+      </div>
+
+      <div id="dpoActionNotice" style="display: none; margin-bottom: 14px; padding: 10px 14px; background: rgba(16, 185, 129, 0.12); border-left: 3px solid #10b981; border-radius: 6px; font-size: 0.88rem; color: var(--text-main);"></div>
+
+      <div id="dpoReplyContent" style="font-size: 0.94rem; line-height: 1.75; color: var(--text-main); white-space: pre-line;"></div>
+
+      <div style="margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--border); font-size: 0.82rem; color: var(--text-muted);">
+        ✉️ Cópia arquivada com sucesso no registo de conformidade de <strong>privacidade@resetbase.pt</strong>.
+      </div>
+    </div>
+  </section>
+  
+
+  
+  <!-- Footer -->
+  <footer class="doc-footer">
+    <div>
+      © 2026 <strong>RESET</strong> · Todos os direitos reservados.
+    </div>
+    <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+      <a href="/privacy">Privacidade</a>
+      <a href="/cookies">Cookies</a>
+      <a href="/terms">Termos</a>
+      <a href="/#faqSection">FAQ & Sobre</a>
+      <a href="mailto:privacidade@resetbase.pt">Contacto Legal</a>
+    </div>
+  </footer>
+  
+</div>
+
+
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute("data-theme") || "dark";
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    html.setAttribute("data-theme", newTheme);
+    try { localStorage.setItem("reset_theme", newTheme); } catch(e) {}
+  }
+
+  function setPolicyLang(lang) {
+    const ptDiv = document.getElementById("contentPt");
+    const enDiv = document.getElementById("contentEn");
+    const btnPt = document.getElementById("btnLangPt");
+    const btnEn = document.getElementById("btnLangEn");
+    const title = document.getElementById("txtDocTitle");
+    const subtitle = document.getElementById("txtDocSubtitle");
+    const backApp = document.getElementById("txtBackToApp");
+
+    if (lang === "en") {
+      if (ptDiv) ptDiv.style.display = "none";
+      if (enDiv) enDiv.style.display = "block";
+      if (btnPt) btnPt.classList.remove("active");
+      if (btnEn) btnEn.classList.add("active");
+      if (backApp) backApp.innerText = "Return to App";
+      try { localStorage.setItem("reset_lang", "en"); } catch(e) {}
+      if (window.onLangChangeEn) window.onLangChangeEn();
+    } else {
+      if (ptDiv) ptDiv.style.display = "block";
+      if (enDiv) enDiv.style.display = "none";
+      if (btnPt) btnPt.classList.add("active");
+      if (btnEn) btnEn.classList.remove("active");
+      if (backApp) backApp.innerText = "Voltar à Aplicação";
+      try { localStorage.setItem("reset_lang", "pt"); } catch(e) {}
+      if (window.onLangChangePt) window.onLangChangePt();
+    }
+  }
+
+  async function submitDpoInquiry() {
+    const nameEl = document.getElementById("dpoSenderName");
+    const emailEl = document.getElementById("dpoSenderEmail");
+    const subjectEl = document.getElementById("dpoSubject");
+    const msgEl = document.getElementById("dpoMessage");
+    const btn = document.getElementById("btnSubmitDpo");
+    const respBox = document.getElementById("dpoResponseBox");
+    const replyContent = document.getElementById("dpoReplyContent");
+    const actionNotice = document.getElementById("dpoActionNotice");
+    const ticketBadge = document.getElementById("dpoTicketBadge");
+
+    const email = emailEl ? emailEl.value.trim() : "";
+    const name = nameEl ? nameEl.value.trim() : "";
+    const subject = subjectEl ? subjectEl.value : "";
+    const message = msgEl ? msgEl.value.trim() : "";
+
+    if (!email || !email.includes("@") || !email.includes(".")) {
+      alert("Por favor introduza um endereço de email válido.");
+      if (emailEl) emailEl.focus();
+      return;
+    }
+    if (!message) {
+      alert("Por favor escreva a sua mensagem ou questão.");
+      if (msgEl) msgEl.focus();
+      return;
+    }
+
+    if (btn) {
+      btn.disabled = true;
+      btn.innerText = "A processar com o Agente de Proteção Legal...";
+    }
+
+    try {
+      const currentLang = localStorage.getItem("reset_lang") || "pt";
+      const res = await fetch("/api/legal/contact-dpo", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: name || "Titular dos Dados",
+          email,
+          subject,
+          message,
+          language: currentLang
+        })
+      });
+
+      const data = await res.json();
+      if (btn) {
+        btn.disabled = false;
+        btn.innerText = "🛡️ Enviar Nova Mensagem";
+      }
+
+      if (res.ok && data.reply) {
+        respBox.style.display = "block";
+        replyContent.innerText = data.reply;
+        ticketBadge.innerText = "REF: " + (data.ticketId || "RESOLVED");
+
+        if (data.executedAction && data.executedAction.message) {
+          actionNotice.style.display = "block";
+          actionNotice.innerHTML = "✓ <strong>Ação Executada:</strong> " + data.executedAction.message;
+        } else {
+          actionNotice.style.display = "none";
+        }
+
+        respBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      } else {
+        alert("Erro: " + (data.error || "Não foi possível processar a mensagem."));
+      }
+    } catch (err) {
+      if (btn) { btn.disabled = false; btn.innerText = "🛡️ Enviar Mensagem para o Gabinete de Privacidade"; }
+      alert("Erro de comunicação: " + err.message);
+    }
+  }
+
+  (function init() {
+    try {
+      const savedTheme = localStorage.getItem("reset_theme");
+      if (savedTheme) {
+        document.documentElement.setAttribute("data-theme", savedTheme);
+      }
+      const savedLang = localStorage.getItem("reset_lang");
+      if (savedLang === "en") {
+        setPolicyLang("en");
+      }
+    } catch (e) {}
+  })();
+</script>
+  
+<script>
+  window.onLangChangeEn = function() {
+    document.getElementById("txtDocTitle").innerText = "Privacy Policy";
+    document.getElementById("txtDocSubtitle").innerText = "Transparency, integrity, and total protection of your personal data on RESET.";
+  };
+  window.onLangChangePt = function() {
+    document.getElementById("txtDocTitle").innerText = "Política de Privacidade";
+    document.getElementById("txtDocSubtitle").innerText = "Transparência, integridade e proteção integral dos seus dados pessoais e consultas no RESET.";
+  };
+</script>
+</body>
+</html>

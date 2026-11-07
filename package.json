@@ -1,0 +1,15 @@
+{
+  "name": "soma-india-engine",
+  "version": "1.0.0",
+  "description": "SOMA·38 | Vedic Sidereal Astrology, Gestalt Somatic Shadow & Sacred Flower Alchemy (India Edition)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_simulation.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
