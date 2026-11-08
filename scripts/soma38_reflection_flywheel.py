@@ -151,6 +151,82 @@ SOVEREIGN_REFLECTIONS = [
             "🌸 Share this quietly with someone navigating rishta pressure who needs permission to trust their own intuition.\n"
             "✨ Test your true Vedic Synastry & Kundli architecture: https://soma38-india.onrender.com"
         )
+    },
+    {
+        "id": "refl_005_neti_neti_ahamkara",
+        "source_image": str(PINS_DIR / "pin-024.jpg"),
+        "epigram_line1": "You Had a Prestigious Title, Yet You",
+        "epigram_line2": "Were Never the Mask You Wore to Belong.",
+        "whisper_footer": "SOMA·38   •   KETU NETI-NETI & WILD OAT",
+        "title": "Neti-Neti & Ahamkara: Why Tethering Your Worth to Titles Leaves You Empty",
+        "paragraph_1_cut_denial": (
+            "Notice how a single shift in your job title, a delayed promotion, or a lukewarm reaction from peers can instantly rob you "
+            "of your inner stillness. That panic is not ambition—it is the fragile shell of Ahamkara (the false ego) realizing it built "
+            "its entire house on borrowed ground. When you forget your own unconditioned center, you shoot desperate tethers outward onto "
+            "salaries, designations, and family applause, mistaking temporary props for who you actually are."
+        ),
+        "paragraph_2_vedic_somatic": (
+            "In Parashari Jyotish, Ketu is the cosmic practitioner of Neti-Neti ('not this, not that'). When Ketu transits or aspects "
+            "your 10th Karma Bhava or 1st Tanu Bhava, it severs false external tethers not to ruin you, but to prove that your core self "
+            "(Atman) remains untouched when the applause stops. If you can observe your fear of losing status, you are the silent witness "
+            "behind the fear—never the fragile role itself."
+        ),
+        "paragraph_3_reframe_and_share": (
+            "In Pushpa Upaya, Wild Oat and Walnut strip away the anxiety of external comparison and anchor you in quiet, unshakeable "
+            "purpose. Which external label or role have you been clinging to so tightly that it is costing you your serenity?\n\n"
+            "🗡️ Send this to someone who has been confusing their designation or resume with their actual soul.\n"
+            "✨ Read your Sovereign Vedic Kundli Letter: https://soma38-india.onrender.com"
+        )
+    },
+    {
+        "id": "refl_006_manovaha_srotas_prana",
+        "source_image": str(PINS_DIR / "pin-088.jpg"),
+        "epigram_line1": "Unspoken Grief Does Not Live in the Brain—",
+        "epigram_line2": "It Stagnates in the Channels of the Heart.",
+        "whisper_footer": "SOMA·38   •   MANOVAHA SROTAS & STAR OF BETHLEHEM",
+        "title": "Manovaha Srotas & Sukshma Sharira: How Subtle Botanical Prana Clears Old Grief",
+        "paragraph_1_cut_denial": (
+            "You have analyzed your childhood, read the psychology books, and explained your history to yourself a hundred times—yet a "
+            "heavy, unyielding ache still sits at the center of your chest. That is because deep grief does not reside in your intellect. "
+            "You cannot argue or logic your way back into emotional warmth when the subtle pathways of the heart remain clogged with years "
+            "of unmourned loss."
+        ),
+        "paragraph_2_vedic_somatic": (
+            "Classical Ayurvedic and Vedic wisdom maps the Sukshma Sharira (subtle energy body) and locates the seat of emotional life in "
+            "the Manovaha Srotas—the luminous channels connecting the heart center (Hridaya) to Manas (the lunar mind). When Natal Chandra "
+            "or the 4th Sukha Bhava carries old shock, stagnation blocks these subtle pathways long before it shows up in the physical body."
+        ),
+        "paragraph_3_reframe_and_share": (
+            "Because Pushpa Upaya (flower essences) carry pure botanical Prana rather than heavy chemicals, they act like a clear tuning fork "
+            "inside the Manovaha Srotas—gently dissolving frozen grief (Star of Bethlehem) and restoring steady equilibrium without forcing "
+            "you to relive the wound. Where in your life have you been trying to 'think' your way out of a feeling that simply needs to be cleared?\n\n"
+            "🌿 Pass this on to someone who understands everything in their head, yet still carries a heavy heart.\n"
+            "✨ Discover your natal Chandra & Pushpa Upaya protocol: https://soma38-india.onrender.com"
+        )
+    },
+    {
+        "id": "refl_007_fortress_self_upadhi",
+        "source_image": str(PINS_DIR / "pin-054.jpg"),
+        "epigram_line1": "The Fortress You Built to Protect Your Pride",
+        "epigram_line2": "Has Become the Prison Stealing Your Rest.",
+        "whisper_footer": "SOMA·38   •   UPADHI & WATER VIOLET",
+        "title": "Upadhi & The Fortress Ego: Why Defending Your 'Image' Creates Chronic Restlessness",
+        "paragraph_1_cut_denial": (
+            "Modern advice tells you to constantly fortify your personal brand, build thicker walls, and guard your image like a monument. "
+            "Yet the harder you work to maintain that polished, self-sufficient exterior, the more isolated and restless you feel inside. "
+            "What if the exhausting effort of defending that rigid persona is the exact source of your uneasiness?"
+        ),
+        "paragraph_2_vedic_somatic": (
+            "Indian philosophical traditions diagnose this as Upadhi—a self-imposed limitation where expansive consciousness locks itself "
+            "inside a cramped, defensive shell. In your Kundli, when Rahu or Shani armors the 1st House (Lagna), pride masquerades as strength, "
+            "cutting you off from genuine human warmth and leaving you stranded inside your own high walls."
+        ),
+        "paragraph_3_reframe_and_share": (
+            "In Pushpa Upaya, Water Violet and Beech melt proud isolation and rigid self-defense, allowing you to participate in life "
+            "with open dignity rather than exhausting armor. What wall have you been maintaining out of pride that is actually keeping joy out?\n\n"
+            "🏛️ Share this with the fiercely independent friend who never lets anyone see them struggle.\n"
+            "✨ Unlock your Lagna & Sovereign Kundli Dossier: https://soma38-india.onrender.com"
+        )
     }
 ]
 
@@ -198,6 +274,53 @@ CAROUSEL_SERIES_01 = {
                 "Bach Flower Remedies (Pushpa Upaya) dissolve borrowed guilt (Pine), "
                 "release the compulsion to over-carry (Oak), and restore a calm, unshakeable "
                 "sense of dignity (Centaury).\n\n"
+                "✦ Free Sovereign Kundli Letter at soma38-india.onrender.com"
+            )
+        }
+    ]
+}
+
+CAROUSEL_SERIES_02 = {
+    "carousel_id": "carousel_002_ahamkara_manovaha_srotas",
+    "title": "How False Ego (Ahamkara) & Blocked Heart Channels Steal Your Serenity",
+    "slides": [
+        {
+            "slide_num": 1,
+            "bg_image": str(PINS_DIR / "pin-024.jpg"),
+            "tag": "SOMA·38  •  VEDIC PSYCHOLOGY & PUSHPA UPAYA",
+            "headline": "Why Losing Status Or\nApproval Hurts Like\nA Physical Injury:\nAhamkara Explained",
+            "subtext": "Swipe to see how Indian philosophical frameworks map emotional pain →"
+        },
+        {
+            "slide_num": 2,
+            "bg_image": str(PINS_DIR / "pin-054.jpg"),
+            "tag": "01  •  AHAMKARA & METAPHYSICAL DISPLACEMENT",
+            "headline": "Shooting Tethers Onto\nTitles, Salaries &\nFamily Applause",
+            "subtext": (
+                "When the mind forgets its unconditioned core (Atman), it builds a fragile outer shell called Ahamkara. "
+                "To cure its inner emptiness, it shoots tethers onto external status—so any shift in your career feels like "
+                "your very self is collapsing."
+            )
+        },
+        {
+            "slide_num": 3,
+            "bg_image": str(PINS_DIR / "pin-088.jpg"),
+            "tag": "02  •  SUKSHMA SHARIRA & MANOVAHA SROTAS",
+            "headline": "Why Talk Alone Cannot\nClear Grief Stored In\nYour Heart Channels",
+            "subtext": (
+                "Unprocessed sorrow does not sit in the logical brain—it stagnates in the Manovaha Srotas, "
+                "the subtle pathways linking your heart center to your mind. You cannot out-think a blockage "
+                "that lives in your subtle energy body."
+            )
+        },
+        {
+            "slide_num": 4,
+            "bg_image": str(PINS_DIR / "soma38_art_janma_chandra_altar.jpg"),
+            "tag": "03  •  NETI-NETI & BOTANICAL PRANA",
+            "headline": "Returning To Stillness:\nKetu's Inquiry & Pure\nPushpa Upaya Resonance",
+            "subtext": (
+                "Neti-Neti ('not this, not that') detaches your worth from temporary roles, while Pushpa Upaya "
+                "(Star of Bethlehem, Walnut & Wild Oat) acts like a tuning fork in the heart's subtle channels.\n\n"
                 "✦ Free Sovereign Kundli Letter at soma38-india.onrender.com"
             )
         }
@@ -387,12 +510,13 @@ def build_all():
         manifest["reflections"].append(entry)
         print(f"  ✅ [60% Share Card] Rendered: {card_path.name}")
 
-    c_paths = render_carousel_series(CAROUSEL_SERIES_01)
-    manifest["carousels"].append({
-        **CAROUSEL_SERIES_01,
-        "rendered_slides": [str(p) for p in c_paths]
-    })
-    print(f"  ✅ [15% Carousel]   Rendered 4 slides: {[p.name for p in c_paths]}")
+    for c_series in [CAROUSEL_SERIES_01, CAROUSEL_SERIES_02]:
+        c_paths = render_carousel_series(c_series)
+        manifest["carousels"].append({
+            **c_series,
+            "rendered_slides": [str(p) for p in c_paths]
+        })
+        print(f"  ✅ [15% Carousel]   Rendered 4 slides: {[p.name for p in c_paths]}")
 
     out_json = DATA_DIR / "soma38_reflection_flywheel_ledger.json"
     with open(out_json, "w", encoding="utf-8") as f:
