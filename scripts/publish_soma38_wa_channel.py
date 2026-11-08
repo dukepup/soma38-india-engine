@@ -46,7 +46,7 @@ INDIAN_SHADOW_SHARE_CTAS = {
     "overthinking_burnout": [
         "🌙 You didn't wake up at 3:14 AM because of Slack—you woke up because at 3 PM yesterday you smiled while your boundaries were violated. Send this to the friend who still thinks burnout is a badge of honor.",
         "⚔️ Your jaw is grinding your teeth to dust tonight to digest the anger you were too afraid to voice at work. Forward this to a colleague bleeding themselves dry for applause.",
-        "🌙 Stop blaming your nervous system for a calendar you refused to defend. Share this with someone who is still online at 2 AM."
+        "🌙 Stop blaming your workload for a calendar you refused to defend, while your own peace of mind pays the price. Share this with someone who is still online at 2 AM."
     ],
     "pushpa_upaya": [
         "🌿 Pushpa Upaya (Bach Flower Remedies) aren't here to coddle you—they are liquid iron for the spine you keep handing away. Send this to someone ready to reclaim their sovereignty.",
@@ -95,6 +95,18 @@ def select_next_pin_and_caption(explicit_index=None):
         idx = next((i for i in range(1, 101) if i not in posted), 1)
 
     cat = get_category_for_pin_index(idx)
+    flywheel_path = BASE_DIR / "data" / "soma38_reflection_flywheel_ledger.json"
+    if flywheel_path.exists():
+        try:
+            with open(flywheel_path, "r", encoding="utf-8") as f:
+                fw = json.load(f)
+            refls = fw.get("reflections", [])
+            if refls:
+                chosen = refls[(idx - 10) % len(refls)]
+                return idx, chosen["rendered_card_path"], chosen["full_3_paragraph_caption"], "sovereign_reflection_60pct"
+        except Exception:
+            pass
+
     cta_list = INDIAN_SHADOW_SHARE_CTAS[cat]
     cta_line = cta_list[(idx - 1) % len(cta_list)]
 
